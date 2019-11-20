@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: c6ccceaee877b2645b801751d15430c8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Zona Pro
+  fontNames:
+  - Zona Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9575adf2748d25a47b185e5bf3d5ba8f, type: 3}
+  - {fileID: 12800000, guid: b5ab4a9313c9ed64fad1b62836e9e2b5, type: 3}
+  - {fileID: 12800000, guid: c0965a741708f7a40be01c601b3aff4e, type: 3}
+  - {fileID: 12800000, guid: bcff3bd63358e9446ad6101e635b4426, type: 3}
+  - {fileID: 12800000, guid: 380eaa078d16b8342ad81aac6aa235ec, type: 3}
+  - {fileID: 12800000, guid: a8b80c07b82c5a64ab579e5ba7b23983, type: 3}
+  - {fileID: 12800000, guid: 299d0f470a0641748a951b56547609d0, type: 3}
+  - {fileID: 12800000, guid: 1e32b829f95ae6a44a26cbb628bcfbc4, type: 3}
+  - {fileID: 12800000, guid: c0566f1a4fd0f9642bd58c8b5398a78d, type: 3}
+  - {fileID: 12800000, guid: 487eb4ca71a1aae479af76938ff8c1d4, type: 3}
+  - {fileID: 12800000, guid: 12d3986ebfd029d49882a893fea20eb1, type: 3}
+  - {fileID: 12800000, guid: 5819058febd10404790442c18ae73ee3, type: 3}
+  - {fileID: 12800000, guid: 2f569acf60107d64c8f7edd60e4d7d8f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
