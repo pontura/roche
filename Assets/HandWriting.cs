@@ -7,15 +7,24 @@ public class HandWriting : MonoBehaviour {
 	
 	float speed = 0.05f;
 
+    public void CheckToHandwrite(GameObject go)
+    {
+        Text field = go.GetComponentInChildren<Text>();
+        if (field == null)
+            return;
+        string text = field.text;
+        field.text = "";
+        WriteTo(field, text, null);
+    }
+
 	public void WriteTo(Text field, string textToWrite,  System.Action OnReadyFunc)
 	{
-        StopAllCoroutines();
+        //StopAllCoroutines();
 		field.text = "";
 		StartCoroutine (WriteLoop (field, textToWrite, OnReadyFunc));
 	}
 	IEnumerator WriteLoop(Text field, string textToWrite,  System.Action OnReadyFunc)
 	{
-		field.text = ">";
 		int letterId = 0;
 		int totalWords = textToWrite.Length;
 		while (letterId < totalWords) {		
@@ -24,8 +33,8 @@ public class HandWriting : MonoBehaviour {
 				StopAllCoroutines ();
 			}	
 			if (field != null) {
-				field.text = field.text.Remove (field.text.Length - 1, 1);
-				field.text += textToWrite [letterId] + "_";
+                //field.text = field.text.Remove (field.text.Length - 1, 1);
+                field.text += textToWrite[letterId]; // + "_";
 				letterId++;
 				yield return new WaitForSeconds (speed);
 			}
