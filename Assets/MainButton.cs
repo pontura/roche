@@ -1,34 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainButton : MonoBehaviour
 {
     public GameObject state_normal;
     public GameObject state_selected;
+    public Text field;
     MainSection mainSection;
     public int id;
     bool isOn;
+    HandWriting handWritting;
 
-    void Start()
+    void Awake()
     {
         mainSection = GetComponentInParent<MainSection>();
+        handWritting = gameObject.AddComponent(typeof(HandWriting)) as HandWriting;
+        handWritting.Init(field.text);
     }
     void OnEnable()
     {
-        if(isOn)
-            Data.Instance.handWritting.CheckToHandwrite(state_selected);
+        if (isOn)
+           handWritting.CheckToHandwrite(state_selected);
         else
-            Data.Instance.handWritting.CheckToHandwrite(state_normal);
+           handWritting.CheckToHandwrite(state_normal);
     }
     public void SetState(bool isOn)
     {
+        field.text = handWritting.text;
         this.isOn = isOn;
         if (isOn)
         {
             state_normal.SetActive(false);           
             state_selected.SetActive(true);
-            Data.Instance.handWritting.CheckToHandwrite(state_selected);
+            handWritting.CheckToHandwrite(state_selected);
         }
         else
         {

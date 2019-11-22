@@ -12,11 +12,11 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
-        Init();
-    }
-    private void Init()
-    {
         mainSectionsDefault.SetActive(false);
+        menu.gameObject.SetActive(false);
+    }
+    public void Init()
+    {        
         menu.gameObject.SetActive(true);
         ResetAll();
     }

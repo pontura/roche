@@ -9,7 +9,6 @@ public class Data : MonoBehaviour
 
     const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
-    public HandWriting handWritting;
 
 	public static Data Instance
 	{
