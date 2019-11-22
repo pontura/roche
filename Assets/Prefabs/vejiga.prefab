@@ -420,6 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 3450195073560491787}
   state_selected: {fileID: 138165136130405250}
+  field: {fileID: 5872071752866261001}
   id: 3
 --- !u!1 &350192828249081424
 GameObject:
@@ -879,7 +880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8403829205804251744
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2351,6 +2352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 8011983119279622360}
   state_selected: {fileID: 5345122002936358618}
+  field: {fileID: 1899300531450173887}
   id: 2
 --- !u!114 &1861408935
 MonoBehaviour:
@@ -2813,6 +2815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 536481366814872386}
   state_selected: {fileID: 6916218246402989493}
+  field: {fileID: 588822561836652230}
   id: 2
 --- !u!1 &1619872500366512813
 GameObject:
@@ -3079,7 +3082,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 733, y: -2}
-  m_SizeDelta: {x: 1328.9, y: 58.5}
+  m_SizeDelta: {x: 1328.9, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3202685873417625472
 CanvasRenderer:
@@ -4004,6 +4007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 6218915580219996998}
   state_selected: {fileID: 1375059463238203032}
+  field: {fileID: 6116897769344049658}
   id: 3
 --- !u!114 &587973855
 MonoBehaviour:
@@ -4970,6 +4974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 5210763720891778112}
   state_selected: {fileID: 8381156394146504893}
+  field: {fileID: 7316318190002873886}
   id: 2
 --- !u!1 &2798587403641410571
 GameObject:
@@ -5559,6 +5564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 5796212114344571678}
   state_selected: {fileID: 5924110552049232676}
+  field: {fileID: 7320775031430263109}
   id: 2
 --- !u!1 &3077212407748143768
 GameObject:
@@ -6463,7 +6469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8473300605600510003
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6918,6 +6924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 2398627352172185119}
   state_selected: {fileID: 2546415490637733041}
+  field: {fileID: 3463641274731752796}
   id: 1
 --- !u!114 &187594538
 MonoBehaviour:
@@ -10587,6 +10594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 8622548103067594870}
   state_selected: {fileID: 8679362615439790018}
+  field: {fileID: 3639550807514865731}
   id: 1
 --- !u!1 &5746618391198636916
 GameObject:
@@ -11674,6 +11682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 812110652965699882}
   state_selected: {fileID: 2102118863861852521}
+  field: {fileID: 6393912569746537940}
   id: 1
 --- !u!1 &6355668323978096912
 GameObject:
@@ -12823,6 +12832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 2081836833319389105}
   state_selected: {fileID: 8758200767005254450}
+  field: {fileID: 5251662235415737076}
   id: 4
 --- !u!1 &6916218246402989493
 GameObject:
@@ -12951,7 +12961,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 733, y: -2}
-  m_SizeDelta: {x: 1328.9, y: 58.5}
+  m_SizeDelta: {x: 1328.9, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1562761717976517072
 CanvasRenderer:
@@ -14011,7 +14021,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 733, y: -2}
-  m_SizeDelta: {x: 1328.9, y: 58.5}
+  m_SizeDelta: {x: 1328.9, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &565491163670088305
 CanvasRenderer:
@@ -14315,7 +14325,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 732.99994, y: -1.9999809}
-  m_SizeDelta: {x: 1328.9, y: 58.5}
+  m_SizeDelta: {x: 1328.9, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &194066271169039544
 CanvasRenderer:
@@ -14936,6 +14946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state_normal: {fileID: 499382852649630321}
   state_selected: {fileID: 350192828249081424}
+  field: {fileID: 2896008953065903869}
   id: 1
 --- !u!1 &8027765580594662532
 GameObject:
