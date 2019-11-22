@@ -11,7 +11,6 @@ public class Splash : MonoBehaviour
     {
         splash.SetActive(true);
     }
-
     public void Ready()
     {
         mainMenu.Init();
