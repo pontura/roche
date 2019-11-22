@@ -1411,11 +1411,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: vejiga
       objectReference: {fileID: 0}
-    - target: {fileID: 3731502503036994821, guid: b00d4888f1d370246bd17d563b40ddd9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8473300605600510003, guid: b00d4888f1d370246bd17d563b40ddd9,
         type: 3}
       propertyPath: m_LocalPosition.x
