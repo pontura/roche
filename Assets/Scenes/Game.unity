@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19475,10 +19475,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 487eb4ca71a1aae479af76938ff8c1d4, type: 3}
-    m_FontSize: 33
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 67
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -37318,7 +37318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &3731502504337792867
 GameObject:
   m_ObjectHideFlags: 0
@@ -51550,7 +51550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5179930010683302851
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59461,10 +59461,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 487eb4ca71a1aae479af76938ff8c1d4, type: 3}
-    m_FontSize: 33
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 67
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -65285,7 +65285,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1L CPCP EE
+  m_Text: OAK 2L CPCNP
 --- !u!114 &6639384484090441593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73095,10 +73095,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 487eb4ca71a1aae479af76938ff8c1d4, type: 3}
-    m_FontSize: 33
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 67
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -76096,7 +76096,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1L CPCNP Nem
+  m_Text: 1L CPCNP NEm
 --- !u!222 &7776717757826677852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -82446,7 +82446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &8442929053684010876
 CanvasRenderer:
   m_ObjectHideFlags: 0
