@@ -40,7 +40,7 @@ public class ToogleButton : MonoBehaviour
         this.id = _id;
         print(id);
         SetSelect();
-        if (anim != null)
+        if (anim != null && anim.GetClipCount()>0)
         {
            anim.Play(clips[id].name);
         }

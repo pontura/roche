@@ -13,7 +13,7 @@ public class MainSection : MonoBehaviour
         all = GetComponentsInChildren<MainButton>();
     }
     
-    public void Clicked(MainButton button)
+    public virtual void Clicked(MainButton button)
     {
         Reset();
         foreach (MainButton b in all)

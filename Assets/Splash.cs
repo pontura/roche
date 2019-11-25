@@ -9,11 +9,15 @@ public class Splash : MonoBehaviour
 
     void Start()
     {
-        splash.SetActive(true);
+        Init();
     }
     public void Ready()
     {
         mainMenu.Init();
         splash.SetActive(false);
+    }
+    public void Init()
+    {
+        splash.SetActive(true);
     }
 }

@@ -9,19 +9,31 @@ public class MainMenu : MonoBehaviour
     public Animation anim;
     public GameObject mainSectionsDefault;
     int id;
-
+    public int sec;
+    int totalSecsToReset = 10;
+    public bool isOnMain;
+    Splash splash;
     private void Start()
+    {
+        splash = GetComponent<Splash>();
+        ResetMain();
+        Loop();
+    }
+    void ResetMain()
     {
         mainSectionsDefault.SetActive(false);
         menu.gameObject.SetActive(false);
     }
     public void Init()
-    {        
+    {
+        sec = 0;
         menu.gameObject.SetActive(true);
         ResetAll();
+        isOnMain = true;
     }
     public void Clicked(int id)
     {
+        isOnMain = false;
         mainSectionsDefault.SetActive(false);
         StartCoroutine(Delayed(id));
     }
@@ -72,5 +84,26 @@ public class MainMenu : MonoBehaviour
         }
         yield return new WaitForSeconds(0.7f);
         Init();
+    }
+    void Loop()
+    {
+        Invoke("Loop", 1);
+        if (isOnMain)
+        {
+            sec++;
+            if(sec>totalSecsToReset)
+            {
+                GotoSplash();               
+            }
+        } else
+        {
+            sec = 0;
+        }
+    }
+    void GotoSplash()
+    {
+        isOnMain = false;
+        splash.Init();
+        ResetMain();
     }
 }
