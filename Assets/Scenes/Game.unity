@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -40385,6 +40385,56 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 165767063}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 48dd0e1996b2e6c4fbdba3b4bff6ce0a, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[7]
+      value: 
+      objectReference: {fileID: 7400000, guid: 7111f7df2f787e54984708268ece144c, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 7400000, guid: 48dd0e1996b2e6c4fbdba3b4bff6ce0a, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 7400000, guid: b4a99f2f61371c7419d306e6c776dd8c, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400000, guid: 9c8d819310c5ddf4ea1046a60034b873, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[3]
+      value: 
+      objectReference: {fileID: 7400000, guid: 1e5c0489ad0063945bfae886d1dea02f, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[4]
+      value: 
+      objectReference: {fileID: 7400000, guid: 91ccc0ac77b57a647aeeb8d28491685f, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[5]
+      value: 
+      objectReference: {fileID: 7400000, guid: 294771d01a562184ea9d246be33d22a8, type: 2}
+    - target: {fileID: 1331079824164524595, guid: 10b9175f18a86e64c8812a4007fcb92e,
+        type: 3}
+      propertyPath: m_Animations.Array.data[6]
+      value: 
+      objectReference: {fileID: 7400000, guid: 2f435cbf2ec867b42997002c369b1b2e, type: 2}
     - target: {fileID: 7125114423786112674, guid: 10b9175f18a86e64c8812a4007fcb92e,
         type: 3}
       propertyPath: m_Sprite
